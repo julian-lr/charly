@@ -43,34 +43,88 @@
         <h2>Contacto</h2>
 
         <form action="">
-          <label for="">Nombre</label>
-          <br />
-          <input type="text" />
-          <br />
-          <br />
-          <label for="">Telefono</label>
-          <br />
-          <input type="tel" />
-          <br /><br />
-          <label for="">E-mail</label>
-          <br />
-          <input type="email" />
-          <br /><br />
-          <label for="">Fecha</label>
-          <br />
-          <input type="date" />
-          <br /><br />
-          <label for="">Hora</label>
-          <br />
-          <input type="time" />
-          <br /><br />
-          <label for="">Mensaje</label>
-          <br />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <br /><br />
-          <label for="">Aceptá los <a href="#">Términos y Condiciones</a></label>
-          <br />
-          <input type="Checkbox" class="checkbox"/>
+          <div>
+            <label for="nombre">Nombre</label>
+            <br />
+            <input id="nombre" type="text" placeholder="Nombre y apellido..." />
+            <br />
+            <br />
+          </div>
+
+          <div>
+            <label for="telefono">Telefono</label>
+            <br />
+            <input type="tel" id="telefono" placeholder="Número de telefono" />
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <br />
+            <input type="email" id="email" placeholder="E-mail" />
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="fecha">Fecha</label>
+            <br />
+            <input type="date" id="fecha" />
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="tiempo">Hora</label>
+            <br />
+            <input type="time" id="tiempo" />
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="asunto">Asunto</label>
+            <br />
+            <select name="asunto" id="asunto">
+              <option value="consulta">Consulta</option>
+              <option value="reclamo">Reclamo</option>
+              <option value="otro">Otro</option>
+            </select>
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="">Mensaje</label>
+            <br />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Ingrese su mensaje"
+            >
+            </textarea>
+            <br /><br />
+          </div>
+
+          <div>
+            <label for="novedades">¿Deseás recibir novedades?</label>
+            <br />
+            <input type="Checkbox" class="checkbox" id="novedades" />
+          </div>
+
+          <div>
+            <label for="tyc"
+              >Aceptá los <a href="#">Términos y Condiciones</a></label
+            >
+            <br />
+            <input type="Checkbox" class="checkbox" id="tyc" />
+          </div>
+
+          <div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar formulario">
+            <button>Boton</button>
+
+          </div>
         </form>
       </section>
     </main>
@@ -107,6 +161,7 @@
           <p>© Charly Garcia 2023. Todos los derechos reservados.</p>
         </div>
       </section>
+      <!-- HECHO POR JULIÁN LAURITO RISCICA -->
     </footer>
   </body>
 </html>
