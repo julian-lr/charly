@@ -45,7 +45,7 @@ header nav div img {
 
 main section video {
     position:relative;
-    min-width: 90%;
+    min-width: 100%;
     min-height: 90%;
 }
 
