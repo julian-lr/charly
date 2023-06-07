@@ -31,61 +31,48 @@
       </nav>
     </header>
 
-    <main class="form">
-      <section>
-        <h2>Contacto</h2>
+    <main>
+      <section class="form">
+        <h1>Contacto</h1>
 
         <form action="">
           <div>
             <label for="nombre">Nombre</label>
-            <br />
-            <input id="nombre" type="text" placeholder="Nombre y apellido..." />
-            <br />
-            <br />
           </div>
+            <input id="nombre" type="text" placeholder="Nombre y apellido..." />          
 
           <div>
             <label for="telefono">Telefono</label>
-            <br />
-            <input type="tel" id="telefono" placeholder="Número de telefono" />
-            <br /><br />
           </div>
+            <input type="tel" id="telefono" placeholder="Número de telefono" />
 
           <div>
             <label for="email">E-mail</label>
-            <br />
-            <input type="email" id="email" placeholder="E-mail" />
-            <br /><br />
           </div>
+            <input type="email" id="email" placeholder="E-mail" />
 
           <div>
             <label for="fecha">Fecha</label>
-            <br />
-            <input type="date" id="fecha" />
-            <br /><br />
           </div>
+            <input type="date" id="fecha" />          
 
           <div>
             <label for="tiempo">Hora</label>
-            <br />
-            <input type="time" id="tiempo" />
-            <br /><br />
           </div>
+            <input type="time" id="tiempo" />
 
           <div>
             <label for="asunto">Asunto</label>
-            <br />
+          </div>
             <select name="asunto" id="asunto">
               <option value="consulta">Consulta</option>
               <option value="reclamo">Reclamo</option>
               <option value="otro">Otro</option>
             </select>
-            <br /><br />
-          </div>
 
           <div>
             <label for="">Mensaje</label>
-            <br />
+          </div>
             <textarea
               name=""
               id=""
@@ -94,12 +81,9 @@
               placeholder="Ingrese su mensaje"
             >
             </textarea>
-            <br /><br />
-          </div>
 
-          <div>
+            <div>
             <label for="novedades">¿Deseás recibir novedades?</label>
-            <br />
             <input type="Checkbox" class="checkbox" id="novedades" />
           </div>
 
@@ -107,16 +91,10 @@
             <label for="tyc"
               >Aceptá los <a href="#">Términos y Condiciones</a></label
             >
-            <br />
             <input type="Checkbox" class="checkbox" id="tyc" />
           </div>
-
-          <div>
-
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar formulario">
-
-          </div>
+            <input type="submit" value="Enviar" class="form-button">
+            <input type="reset" value="Borrar formulario" class="form-button">
         </form>
       </section>
     </main>
